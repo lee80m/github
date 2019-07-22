@@ -36,3 +36,11 @@
     --> git branch -r
 17. Cloning github project into a local folder.
     --> git clone github project address Ex) git clone https://github.com/lee80m/github.git
+18. How to checkout remote github branch
+    --> git checkout origin/checkout
+19. How to merge remote github branch into local master branch.
+    --> git checkout master
+    --> git merge origin/master
+18. How to remove github repository
+    --> git remote rm origin
+
