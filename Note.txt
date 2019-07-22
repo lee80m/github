@@ -16,7 +16,7 @@
     --> git log
 9. How to go back to specific moment in time.
     --> git reset --hard 'commit_id'. Ex) git reset --hard 7cb5a5dc6e4667a035ad22626e8e1cad15a2cd16
-10. Reverting back to initial state of before making any changes.
+10. Reverting back to initial state of before making any changes since the last commit.
     --> just like Ctrl + Z.
     --> git checkout -- .
 11. Creating a new branch
