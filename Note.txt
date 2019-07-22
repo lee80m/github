@@ -1,6 +1,23 @@
-1. git init
-2. git status
-3. git add .
-4. git add 'filename'
-5. git commit -m "starting code"
-6. git branch
+1. Initialize empty local git repository
+    --> git init
+2. Track what's being monitored for changes.
+    --> git status
+3. Add all changes made to commit.
+    --> git add .
+4. Add specific file changes only to commit.  
+    --> git add 'filename'
+5. Commit changes than have been added with comments.
+    --> git commit -m "starting code"
+6. Find the current branch location.
+    --> git branch
+7. How to check out specific commit.
+    --> git checkout 'commit_id'. Ex) git checkout 7cb5a5dc6e4667a035ad22626e8e1cad15a2cd16
+8. How to check out commits history.
+    --> git log
+9. How to go back to specific moment in time.
+    --> git reset --hard 'commit_id'. Ex) git reset --hard 7cb5a5dc6e4667a035ad22626e8e1cad15a2cd16
+10. Reverting back to initial state of before making any changes.
+    --> just like Ctrl + Z.
+    --> git checkout -- .
+11. Creating a new branch
+    --> git checkout -b "branch_name". Ex) git checkout -b new-feature
