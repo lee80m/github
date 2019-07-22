@@ -28,4 +28,11 @@
         --> git merge "branch". Ex) git merge new-feature
 13. How to delete branch
     --> git branch -D "branch". Ex) git branch -D new-feature
-14. 
+14. How to check github remote branch.
+    --> git remote
+15. Versions of github branch
+    --> git remote -v
+16. Relatioship between local git and remote github
+    --> git branch -r
+17. Cloning github project into a local folder.
+    --> git clone github project address Ex) git clone https://github.com/lee80m/github.git
