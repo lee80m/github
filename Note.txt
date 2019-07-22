@@ -43,5 +43,5 @@
     --> git merge origin/master
 20. How to remove github repository
     --> git remote rm origin
-21. TEST999
+21. TEST777
 
