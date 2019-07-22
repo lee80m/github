@@ -43,5 +43,17 @@
     --> git merge origin/master
 20. How to remove github repository
     --> git remote rm origin
-21. TEST777
+21. How to stash changes
+    --> git stash push -m "comment". Ex) git stash push -m "added awesome feature"
+22. List out stashes
+    --> git stash List
+23. Apply stash.
+    --> git stash apply stash_index. Ex) git stash apply 1
+24. Drop a stash
+    --> git stash drop stash_index. Ex) git stash drop 2
+25. Drop all stashes
+    --> git stash clear
+26. Apply and drop a stash from the list.
+    --> git stash pop stash_index. Ex) git stash pop 0
+27. 
 
