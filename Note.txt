@@ -21,3 +21,11 @@
     --> git checkout -- .
 11. Creating a new branch
     --> git checkout -b "branch_name". Ex) git checkout -b new-feature
+12. How to merge branch.
+    1. check out master branch
+        --> git checkout master
+    2. merge branch into master
+        --> git merge "branch". Ex) git merge new-feature
+13. How to delete branch
+    --> git branch -D "branch". Ex) git branch -D new-feature
+14. 
