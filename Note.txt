@@ -55,5 +55,14 @@
     --> git stash clear
 26. Apply and drop a stash from the list.
     --> git stash pop stash_index. Ex) git stash pop 0
-27. 
+27. How to merge branch with multiple commits into a master.
+    --> git merge --squash feature
+    --> Ignore this message: Automatic merge went well; stopped before committing as requested.
+    --> git commit -m "comments"
+28. How to rebase branch project.
+    --> git checkout feature
+    --> git rebase master
+    --> These two commands will bring all the changes from master branch to feaure branch to sync up since the last branching.
+    --> And push feature branch changes on top of all changes from master.
+
 
